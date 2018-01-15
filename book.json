@@ -17,6 +17,7 @@
     "plugins": [
        "donate@^1.0.2"
     ],
+    "pluginsConfig": {
     "donate": {
             "wechat": "https://zhangjikai.com/resource/weixin.png",
             "alipay": "https://zhangjikai.com/resource/alipay.png",
@@ -25,4 +26,5 @@
             "alipayText": "支付宝打赏",
             "wechatText": "微信打赏"
      }
+    }
 }
