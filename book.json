@@ -15,16 +15,21 @@
         }
     },
     "plugins": [
+       "favicon@^0.0.2",
        "donate@^1.0.2"
     ],
     "pluginsConfig": {
-    "donate": {
-            "wechat": "https://zhangjikai.com/resource/weixin.png",
-            "alipay": "https://zhangjikai.com/resource/alipay.png",
-            "title": "",
-            "button": "赏",
-            "alipayText": "支付宝打赏",
-            "wechatText": "微信打赏"
-     }
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        },
+        "donate": {
+             "wechat": "https://zhangjikai.com/resource/weixin.png",
+             "alipay": "https://zhangjikai.com/resource/alipay.png",
+             "title": "",
+             "button": "赏",
+             "alipayText": "支付宝打赏",
+             "wechatText": "微信打赏"
+         }
     }
 }
