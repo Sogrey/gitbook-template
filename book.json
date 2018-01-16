@@ -28,8 +28,8 @@
 			"alipay": "https://sogrey.github.io/img/alipay.jpg",
 			"title": "",
 			"button": "赏",
-			"alipayText": "",
-			"wechatText": ""
+			"alipayText": "支付宝打赏",
+			"wechatText": "微信打赏"
 		}
 	},
 	"styles": {
