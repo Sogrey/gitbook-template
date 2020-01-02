@@ -1,0 +1,38 @@
+{
+  "name": "gitbook-template",
+  "version": "1.0.0",
+  "description": "Gitbook 模板（node.js）",
+  "main": "index.js",
+  "scripts": {
+    "init": "gitbook install && gitbook init",
+    "serve": "gitbook serve --port 4000 --open",
+    "build": "gitbook build --watch",
+    "release": "gitbook build && bash deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogrey/gitbook-template.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "Sogrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sogrey/gitbook-template/issues"
+  },
+  "homepage": "https://github.com/Sogrey/gitbook-template#readme",
+  "dependencies": {
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-donate": "^1.0.2",
+    "gitbook-plugin-favicon": "0.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-sectionx": "^3.1.0",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
+    "gitbook-plugin-toggle-chapters": "0.0.3"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
